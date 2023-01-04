@@ -1,4 +1,4 @@
-const autoBind = require("auto-bind");
+const { autoBind } = require("auto-bind2");
 
 class UsersHandler {
 	constructor(service, validator) {
